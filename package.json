@@ -1,6 +1,6 @@
 {
   "name": "sets-equal",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Check if two Sets contain all the same values",
   "main": "dist/sets-equal.js",
   "scripts": {
