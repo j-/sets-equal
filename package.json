@@ -1,0 +1,35 @@
+{
+  "name": "sets-equal",
+  "version": "0.0.0",
+  "description": "Check if two Sets contain all the same values",
+  "main": "dist/sets-equal.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "rollup -i src/sets-equal.js -o dist/sets-equal.js -f umd -n setsEqual"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-/sets-equal.git"
+  },
+  "keywords": [
+    "sets",
+    "equal",
+    "same",
+    "items",
+    "intersection",
+    "difference"
+  ],
+  "author": "Jamie Hoeks <j@skeoh.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j-/sets-equal/issues"
+  },
+  "homepage": "https://github.com/j-/sets-equal#readme",
+  "dependencies": {
+    "make-set": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "rollup": "^0.24.1"
+  }
+}
