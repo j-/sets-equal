@@ -31,5 +31,8 @@
   "devDependencies": {
     "mocha": "^2.3.4",
     "rollup": "^0.24.1"
+  },
+  "engines": {
+    "node": ">=4"
   }
 }
